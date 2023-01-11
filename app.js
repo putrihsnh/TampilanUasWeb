@@ -46,6 +46,7 @@ let vm = new Vue({
         },
 
 
+
         deleteBunga: function(id){
             axios
             .delete('https://projek-uas-iota.vercel.app/listBunga/' + id)
